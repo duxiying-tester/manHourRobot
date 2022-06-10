@@ -27,7 +27,13 @@ def job():
 
 if __name__ == '__main__':
 
-    schedule.every(0.5).minutes.do(job)
+    schedule.every().monday.at("18:00").do(job)
+    schedule.every().tuesday.at("18:00").do(job)
+    schedule.every().wednesday.at("18:00").do(job)
+    schedule.every().thursday.at("18:00").do(job)
+    schedule.every().friday.at("18:00").do(job)
+    schedule.every().saturday.at("18:00").do(job)
+    schedule.every().sunday.at("18:00").do(job)
 
     while True:
         schedule.run_pending()
