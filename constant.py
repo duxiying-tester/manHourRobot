@@ -1,4 +1,4 @@
-BASE_URL = "http://ones.ai"
+BASE_URL = "http://our.ones.pro"
 
 PROJECT = "/project/api/project"
 
