@@ -92,7 +92,7 @@ open_platform = {
 
 open_platform_tester = {
     "robot_name": "开放平台-测试",
-    "robot_key": "b9ebccb9-5e29-4eb2-acec-a7ad13bc84ad",
+    "robot_key": "063b5beb-54f7-4f65-9e0c-1c3918624b19",
     "user_infos": [ 
         {
             "user_name": "杜习营",
@@ -107,12 +107,16 @@ open_platform_tester = {
             "user_uuid": "2U5oyAhd"
         },
         {
-            "user_name": "梁挚渝",
-            "user_uuid": "GHPg4FFf"
+            "user_name": "王可欣",
+            "user_uuid": "E4EnY1zn"
         },
         {
             "user_name": "杨宇帆",
             "user_uuid": "VNKWmAoW"
+        },
+        {
+            "user_name": "张静娜",
+            "user_uuid": "Gq5EaWF6"
         }
     ]
 }
