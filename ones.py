@@ -40,7 +40,7 @@ def getManHours(department):
             "timeField": "users.manhours.startTime",
             "valueField": "users.manhours.hours",
             "unit": "day",
-            "quick": "this_week" # last_7_days  this_week
+            "quick": "last_7_days" # last_7_days  this_week
         },
         "columnSource": "uuid",
         "orderBy":{"aggregateUser":{"namePinyin":"ASC"}}
