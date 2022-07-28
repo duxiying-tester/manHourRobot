@@ -22,6 +22,7 @@ def sendToWechat(department):
 
 def job():
     sendToWechat(constant.open_platform_tester)
+    sendToWechat(constant.open_platform)
 
     
 
