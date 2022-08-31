@@ -121,6 +121,10 @@ open_platform = {
         {
             "user_name": "张静娜",
             "user_uuid": "Gq5EaWF6"
+        },
+        {
+            "user_name": "曹星",
+            "user_uuid": "4riWsMgD"
         }
     ]
 }
