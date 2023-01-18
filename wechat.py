@@ -21,7 +21,6 @@ def sendToWechat(department):
 
 
 def job():
-    sendToWechat(constant.open_platform_tester)
     sendToWechat(constant.open_platform)
 
     
@@ -39,4 +38,4 @@ if __name__ == '__main__':
     while True:
         schedule.run_pending()
 
-    # sendToWechat(constant.open_platform_tester)
+    # sendToWechat(constant.local_test)

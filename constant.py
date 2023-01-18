@@ -35,20 +35,8 @@ open_platform = {
             "user_uuid": "T6UaKojL"
         },
         {
-            "user_name": "李重辰",
-            "user_uuid": "F5aU2epq"
-        },
-        {
             "user_name": "陈慧",
             "user_uuid": "2U5oyAhd"
-        },
-        {
-            "user_name": "黄瑶",
-            "user_uuid": "TLQRkSNy"
-        },
-        {
-            "user_name": "贺翔",
-            "user_uuid": "RbVH2GV9"
         },
         {
             "user_name": "梁挚渝",
@@ -57,14 +45,6 @@ open_platform = {
         {
             "user_name": "万鑫",
             "user_uuid": "56HKUf9n"
-        },
-        {
-            "user_name": "韦达",
-            "user_uuid": "BigMXtzN"
-        },
-        {
-            "user_name": "杨宇帆",
-            "user_uuid": "VNKWmAoW"
         },
         {
             "user_name": "刘章",
@@ -85,10 +65,6 @@ open_platform = {
         {
             "user_name": "赖杰辉",
             "user_uuid": "QSSBo5k4"
-        },
-        {
-            "user_name": "连丹婷",
-            "user_uuid": "RNtQiMxR"
         },
         {
             "user_name": "刘鹏飞",
@@ -125,38 +101,22 @@ open_platform = {
         {
             "user_name": "曹星",
             "user_uuid": "4riWsMgD"
+        },
+        {
+            "user_name": "李怡君",
+            "user_uuid": "8e6J6bkE"
         }
     ]
 }
 
 
-open_platform_tester = {
-    "robot_name": "开放平台-测试",
-    "robot_key": "063b5beb-54f7-4f65-9e0c-1c3918624b19",
+local_test = {
+    "robot_name": "本地测试",
+    "robot_key": "b9ebccb9-5e29-4eb2-acec-a7ad13bc84ad",
     "user_infos": [ 
         {
             "user_name": "杜习营",
             "user_uuid": "PUthCii8"
-        },
-        {
-            "user_name": "王雪颖",
-            "user_uuid": "CB7E9sQy"
-        },
-        {
-            "user_name": "陈慧",
-            "user_uuid": "2U5oyAhd"
-        },
-        {
-            "user_name": "王可欣",
-            "user_uuid": "E4EnY1zn"
-        },
-        {
-            "user_name": "杨宇帆",
-            "user_uuid": "VNKWmAoW"
-        },
-        {
-            "user_name": "张静娜",
-            "user_uuid": "Gq5EaWF6"
         }
     ]
 }
