@@ -6,7 +6,7 @@ url = constant.BASE_URL + constant.PROJECT + '/auth/login'
 header = {'Content-Type': 'application/json'}
 
 body = {
-    'email': 'duxiying@ones.ai',
+    'email': 'duxiying@ones.cn',
     'password': 'WO5531608wo'
 }
 
