@@ -1,10 +1,20 @@
 import constant
 import login
 import requests
-import json
+import datetime
 
 
 def getManHours(department):
+    
+    # 获取当前时间
+    now = datetime.datetime.now()
+    now_str = now.strftime('%Y-%m-%d')
+    # 获取上周一的时间
+    last_week = now - datetime.timedelta(days=6)
+    last_week_str = last_week.strftime('%Y-%m-%d')
+    # print(last_week_str, now_str)
+    
+    # 获取团队成员的工时
     url = constant.BASE_URL + constant.PROJECT + '/team/' + login.team_uuid + '/items/graphql'
 
     headers = {
@@ -27,8 +37,8 @@ def getManHours(department):
 
     variables = {
         "groupBy": {
-        "users": {
-            "uuid": {}
+            "users": {
+                "uuid": {}
             }
         },
         "filter": {
@@ -40,7 +50,9 @@ def getManHours(department):
             "timeField": "users.manhours.startTime",
             "valueField": "users.manhours.hours",
             "unit": "day",
-            "quick": "last_7_days" # last_7_days  this_week
+            # "quick": "last_7_days" # last_7_days  this_week
+            "from": last_week_str,
+            "to": now_str,
         },
         "columnSource": "uuid",
         "orderBy":{"aggregateUser":{"namePinyin":"ASC"}}

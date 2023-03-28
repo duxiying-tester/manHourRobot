@@ -38,4 +38,4 @@ if __name__ == '__main__':
     while True:
         schedule.run_pending()
 
-    # sendToWechat(constant.local_test)
+    # sendToWechat(constant.open_platform)
